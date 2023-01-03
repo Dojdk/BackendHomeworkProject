@@ -2,8 +2,10 @@ import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 import { CreateAnswerDto } from './dto/create-answer.dto';
+import { Question } from 'src/questions/entities/question.entity';
 import { Answer } from './entities/answer.entity';
-import { Question } from './entities/question.entity';
+
+
 
 @Injectable()
 export class AnswersService{

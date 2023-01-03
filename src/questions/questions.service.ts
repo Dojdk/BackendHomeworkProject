@@ -1,4 +1,4 @@
-import { Answer } from './entities/answer.entity';
+import { Answer } from '../answers/entities/answer.entity';
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { DataSource, Repository } from 'typeorm';
