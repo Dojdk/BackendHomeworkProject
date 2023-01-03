@@ -15,7 +15,7 @@ import { QuestionsModule } from './questions/questions.module';
     TypeOrmModule.forRoot({
       type: 'mysql',
       host: 'mysql-ibrahim.alwaysdata.net',
-      port: Number('3306'),
+      port: 3306,
       username: 'ibrahim',
       password: '6024973815',
       database: 'ibrahim_backend_hwp',
